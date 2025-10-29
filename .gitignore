@@ -1,0 +1,60 @@
+# --- Archivos y carpetas del entorno virtual ---
+venv/
+env/
+.venv/
+.env/
+
+# --- Archivos de configuración del sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos compilados de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Archivos de logs y temporales ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Archivos de bases de datos o cachés ---
+*.sqlite3
+*.db
+
+# --- Archivos de entorno y credenciales ---
+.env
+*.env
+secrets.json
+
+# --- Archivos de descargas ---
+downloads/
+*.part
+*.crdownload
+
+# --- Archivos de dependencias y build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Archivos de configuración de IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Archivos de prueba ---
+tests/__pycache__/
+test-results/
+coverage/
+.coverage
+*.cover
+*.py,cover
+
+# --- Otros ---
+nohup.out
